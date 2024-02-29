@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Part2}",
+            "name": "Debug Part2",
+            "program": "${workspaceFolder:Part2}\\.build\\debug\\Part2.exe",
+            "preLaunchTask": "swift: Build Debug Part2"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Part2}",
+            "name": "Release Part2",
+            "program": "${workspaceFolder:Part2}\\.build\\release\\Part2.exe",
+            "preLaunchTask": "swift: Build Release Part2"
+        }
+    ]
+}

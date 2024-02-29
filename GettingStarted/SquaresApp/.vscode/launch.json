@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SquaresApp}",
+            "name": "Debug SquaresApp",
+            "program": "${workspaceFolder:SquaresApp}\\.build\\debug\\SquaresApp.exe",
+            "preLaunchTask": "swift: Build Debug SquaresApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SquaresApp}",
+            "name": "Release SquaresApp",
+            "program": "${workspaceFolder:SquaresApp}\\.build\\release\\SquaresApp.exe",
+            "preLaunchTask": "swift: Build Release SquaresApp"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Tic-Tac-Toe}",
+            "name": "Debug Tic-Tac-Toe",
+            "program": "${workspaceFolder:Tic-Tac-Toe}\\.build\\debug\\Tic-Tac-Toe.exe",
+            "preLaunchTask": "swift: Build Debug Tic-Tac-Toe"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Tic-Tac-Toe}",
+            "name": "Release Tic-Tac-Toe",
+            "program": "${workspaceFolder:Tic-Tac-Toe}\\.build\\release\\Tic-Tac-Toe.exe",
+            "preLaunchTask": "swift: Build Release Tic-Tac-Toe"
+        }
+    ]
+}
