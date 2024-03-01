@@ -152,25 +152,71 @@ func askInput(player: String) -> Int{
 }
 
 func setPos(pos: Int, player: String) {
+
     switch pos {
     case 1:
-        pos1 = player
+        if pos1 == "X" || pos1 == "O" {
+            print("Position already taken")
+            setPos(pos: askInput(player: player), player: player)
+        } else {
+            pos1 = player
+        }
     case 2:
-        pos2 = player
+        if pos2 == "X" || pos2 == "O" {
+            print("Position already taken")
+            setPos(pos: askInput(player: player), player: player)
+        } else {
+            pos2 = player
+        }
     case 3:
-        pos3 = player
+        if pos3 == "X" || pos3 == "O" {
+            print("Position already taken")
+            setPos(pos: askInput(player: player), player: player)
+        } else {
+            pos3 = player
+        }
     case 4:
-        pos4 = player
+        if pos4 == "X" || pos4 == "O" {
+            print("Position already taken")
+            setPos(pos: askInput(player: player), player: player)
+        } else {
+            pos4 = player
+        }
     case 5:
-        pos5 = player
+        if pos5 == "X" || pos5 == "O" {
+            print("Position already taken")
+            setPos(pos: askInput(player: player), player: player)
+        } else {
+            pos5 = player
+        }
     case 6:
-        pos6 = player
+        if pos6 == "X" || pos6 == "O" {
+            print("Position already taken")
+            setPos(pos: askInput(player: player), player: player)
+        } else {
+            pos6 = player
+        }
     case 7:
-        pos7 = player
+        if pos7 == "X" || pos7 == "O" {
+            print("Position already taken")
+            setPos(pos: askInput(player: player), player: player)
+        } else {
+            pos7 = player
+        }
     case 8:
-        pos8 = player
+        if pos8 == "X" || pos8 == "O" {
+            print("Position already taken")
+            setPos(pos: askInput(player: player), player: player)
+        } else {
+            pos8 = player
+        }
     case 9:
-        pos9 = player
+        if pos9 == "X" || pos9 == "O" {
+            print("Position already taken")
+            setPos(pos: askInput(player: player), player: player)
+        } else {
+            pos9 = player
+        }
     default:
         print("Invalid position")
     }
